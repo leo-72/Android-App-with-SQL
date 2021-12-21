@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:id="@+id/listData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ijoMuda"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kdBrg"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Kode Barang"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/nmBrg"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Nama Barang"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/hrgBeli"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Harga Beli"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/hrgJual"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Harga Jual"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/stok"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Stok"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+</LinearLayout>

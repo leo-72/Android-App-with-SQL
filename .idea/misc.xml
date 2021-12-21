@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/drawable/border.xml" value="0.275" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_add_barang.xml" value="0.2" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_custom_adapter.xml" value="0.2" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_edit_barang.xml" value="0.17" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/kont.xml" value="0.17432432432432432" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

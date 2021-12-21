@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA BARANG"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ijoTua"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kdBrg"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Kode Barang"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/nmBrg"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/hrgBeli"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Harga Beli"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/hrgJual"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+        <TextView
+            android:id="@+id/stok"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Stok"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <ListView
+            android:id="@+id/listBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/activity_custom_adapter"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add"/>
+</LinearLayout>
