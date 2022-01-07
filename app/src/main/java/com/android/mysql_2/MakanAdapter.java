@@ -6,30 +6,29 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.List;
 
-public class BarangAdapter extends BaseAdapter {
+public class MakanAdapter extends BaseAdapter {
 
     Activity activity;
-    List<Barang> barang;
+    List<Makan> makan;
     private LayoutInflater inflater;
 
-    public BarangAdapter(Activity activity, List<Barang> barang) {
+    public MakanAdapter(Activity activity, List<Makan> makan) {
         this.activity = activity;
-        this.barang = barang;
+        this.makan = makan;
     }
 
     @Override
     public int getCount() {
-        return barang.size();
+        return makan.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return barang.get(position);
+        return makan.get(position);
     }
 
     @Override
@@ -45,19 +44,19 @@ public class BarangAdapter extends BaseAdapter {
 
         if (view == null) view = inflater.inflate(R.layout.activity_custom_adapter, null);
 
-        TextView kd_brg = view.findViewById(R.id.kdBrg);
-        TextView nm_brg = view.findViewById(R.id.nmBrg);
-        TextView hrg_beli = view.findViewById(R.id.hrgBeli);
-        TextView hrg_jual = view.findViewById(R.id.hrgJual);
+        TextView kd_mkn = view.findViewById(R.id.kdMkn);
+        TextView nm_mkn = view.findViewById(R.id.nmMkn);
+        TextView jns_mkn = view.findViewById(R.id.jnsMkn);
+        TextView hrg_mkn = view.findViewById(R.id.hrgMkn);
         TextView stok = view.findViewById(R.id.stok);
 
-        Barang brg = barang.get(position);
+        Makan mkn = makan.get(position);
 
-        kd_brg.setText(brg.getKdBrg());
-        nm_brg.setText(brg.getNmBrg());
-        hrg_beli.setText(String.valueOf(brg.getHrgBeli()));
-        hrg_jual.setText(String.valueOf(brg.getHrgJual()));
-        stok.setText(String.valueOf(brg.getStok()));
+        kd_mkn.setText(mkn.getKdMkn());
+        nm_mkn.setText(mkn.getNmMkn());
+        jns_mkn.setText(mkn.getJnsMkn());
+        hrg_mkn.setText(String.valueOf(mkn.getHrgMkn()));
+        stok.setText(String.valueOf(mkn.getStok()));
 
         return view;
     }

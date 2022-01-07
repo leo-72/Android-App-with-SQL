@@ -13,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySQL_2">
         <activity
-            android:name=".EditBarang"
+            android:name=".EditMakan"
             android:exported="false" />
         <activity
-            android:name=".AddBarang"
+            android:name=".AddMakan"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

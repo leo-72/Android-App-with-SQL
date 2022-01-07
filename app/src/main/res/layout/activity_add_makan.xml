@@ -7,13 +7,13 @@
     android:orientation="vertical"
     android:layout_margin="20dp"
     android:gravity="center"
-    tools:context=".EditBarang">
+    tools:context=".AddMakan">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="EDIT BARANG"
+        android:text="TAMBAH MAKANAN"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -27,73 +27,71 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kode Barang"
+            android:text="Kode Makan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18dp"/>
         <EditText
-            android:id="@+id/edKdBrg"
-            android:textColor="@color/abuAbu"
-            android:textStyle="bold"
-            android:enabled="false"
+            android:id="@+id/edKdMkn"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Kode Barang"
+            android:hint="Masukkan Kode Makan"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/border"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Barang"
+            android:text="Nama Makan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18dp"/>
         <EditText
-            android:id="@+id/edNmBrg"
+            android:id="@+id/edNmMkn"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Nama Barang"
+            android:hint="Masukkan Nama Makan"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/border"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harga Beli"
+            android:text="Jenis Makan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18dp"/>
         <EditText
-            android:id="@+id/edHrgBeli"
+            android:id="@+id/edJnsMkn"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Harga Beli"
+            android:hint="Masukkan Jenis Makan"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/border"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harga Jual"
+            android:text="Harga Makan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18dp"/>
         <EditText
-            android:id="@+id/edHrgJual"
+            android:id="@+id/edHrgMkn"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Harga Jual"
+            android:hint="Masukkan Harga Makan"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/border"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stok Barang"
+            android:text="Stok Makan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="18dp"/>
@@ -102,7 +100,7 @@
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukkan Stok Barang"
+            android:hint="Masukkan Stok Makan"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/border"/>
@@ -115,27 +113,14 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btnUpdate"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnTambah"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginRight="20dp"
-            android:text="Update"
+            android:text="TAMBAH"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/green"/>
-        <Button
-            android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp"
-            android:text="Delete"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/red"/>
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"/>
     </LinearLayout>
 
 </LinearLayout>

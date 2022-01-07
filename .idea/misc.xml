@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/drawable/border.xml" value="0.275" />
         <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_add_barang.xml" value="0.2" />
-        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_custom_adapter.xml" value="0.2" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_add_makan.xml" value="0.16418918918918918" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_custom_adapter.xml" value="0.18" />
         <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_edit_barang.xml" value="0.17" />
-        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_edit_makan.xml" value="0.18" />
+        <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/dinus/S5/AS/MySQL_2/app/src/main/res/layout/kont.xml" value="0.17432432432432432" />
       </map>
     </option>

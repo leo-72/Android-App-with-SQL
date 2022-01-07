@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DATA BARANG"
+        android:text="DATA MAKANAN"
         android:textSize="30dp"
         android:gravity="center"
         android:textStyle="bold"
@@ -25,63 +25,68 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/kdBrg"
+            android:id="@+id/kdMkn"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:text="Kode Barang"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Kode Makan"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:background="@drawable/border"/>
         <TextView
-            android:id="@+id/nmBrg"
+            android:id="@+id/nmMkn"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="Nama Barang"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Nama Makan"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:background="@drawable/border"/>
         <TextView
-            android:id="@+id/hrgBeli"
+            android:id="@+id/jnsMkn"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:text="Harga Beli"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Jenis Makan"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:background="@drawable/border"/>
         <TextView
-            android:id="@+id/hrgJual"
+            android:id="@+id/hrgMkn"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:layout_width="85dp"
-            android:layout_height="wrap_content"
-            android:text="Harga Jual"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Harga Makan"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:background="@drawable/border"/>
         <TextView
             android:id="@+id/stok"
+            android:textStyle="bold"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:layout_width="50dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:text="Stok"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:background="@drawable/border"/>
     </LinearLayout>
@@ -89,7 +94,7 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeLayout"
         android:layout_width="match_parent"
-        android:layout_height="600dp">
+        android:layout_height="550dp">
 
         <ListView
             android:id="@+id/listBarang"
@@ -98,9 +103,6 @@
             tools:listitem="@layout/activity_custom_adapter"/>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-
-
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnFab"
         android:layout_width="wrap_content"
@@ -108,5 +110,5 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:clickable="true"
-        android:src="@drawable/ic_add"/>
+        android:src="@drawable/ic_add" />
 </LinearLayout>
